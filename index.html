@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trackmind</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Trackmind - Circuit Upload</h1>
+
+    <!-- Input section which prefer images -->
+    <input type="file" id="trackUpload" accept="image/*">
+    <!-- Display image on page-->
+    <img id="trackPreview" alt="Circuit preview" width="500" hidden>
+    <div id="processedSection" hidden>
+        <h2>Processed Image</h2>
+        <img id="processedPreview" alt="Grayscale circuit" width="500" hidden>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
