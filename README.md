@@ -33,7 +33,7 @@ source .venv/bin/activate
 Install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install fastapi uvicorn python-multipart opencv-python-headless numpy scikit-image
 ```
 
 ## Running the Application
